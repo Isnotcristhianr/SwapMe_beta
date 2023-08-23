@@ -37,7 +37,7 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin{
           title: Text("PickUp",style: TextStyle(color: Color(0xff515c6f),fontFamily: "Varela",fontSize: 20),),
           actions: <Widget>[
             IconButton(
-              icon: Icon(Icons.notifications_none,color: Colors.red[700],),
+              icon: Icon(Icons.notifications_none,color: Colors.green[700],),
               onPressed: (){},
             )
           ],
